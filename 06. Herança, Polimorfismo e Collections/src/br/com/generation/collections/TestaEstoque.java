@@ -42,7 +42,7 @@ public class TestaEstoque {
 
 					case 1:
 
-						System.out.println("LISTA DE PRODUTOS CADASTRADOS: \n");
+						System.out.println("LISTA DE PRODUTOS EM ESTOQUE: \n");
 						for (int i = 0; i < estoque.size(); i++) {
 							System.out.printf("Posição %d - %s\n", i, estoque.get(i));
 						}
@@ -78,7 +78,7 @@ public class TestaEstoque {
 						}
 
 						else {
-							System.out.println("LISTA DE PRODUTOS CADASTRADOS: \n");
+							System.out.println("LISTA DE PRODUTOS EM ESTOQUE: \n");
 							for (int i = 0; i < estoque.size(); i++) {
 								System.out.printf("Posição %d - %s\n", i, estoque.get(i));
 							}
@@ -109,7 +109,7 @@ public class TestaEstoque {
 						}
 
 						else {
-							System.out.println("LISTA DE PRODUTOS CADASTRADOS: \n");
+							System.out.println("LISTA DE PRODUTOS EM ESTOQUE: \n");
 							for (int i = 0; i < estoque.size(); i++) {
 								System.out.printf("Posição %d - %s\n", i, estoque.get(i));
 							}
